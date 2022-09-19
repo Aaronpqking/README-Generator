@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./generateMarkdown");
 const fs = require("fs");
 const inquirer = require('inquirer');
+const { title } = require("process");
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -9,6 +10,7 @@ const questions = [
         type: 'input',
         message: 'What is the project title?',
         name: 'title',
+        default: title,
         validate: (value) => { if (value) { return true } else{return 'enter a title to continue' }},
     },
      {
