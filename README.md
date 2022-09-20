@@ -1,4 +1,4 @@
-# a
+# README Generator
   ## Table of Contents
   1.[Installation](#installation)
   2.[Instructions](#instructions)
@@ -9,18 +9,19 @@
   6.[Contact Info](#credit)
 
   ## Installation
-  b
+  npm
   ## Instructions
-  c
+  use npm to add packages then run app
   ## Description
-  d
+  creating a readme file from question prompts
   ## Usage
-  e
+  node index.js
   ## License
-  Apache
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  https://opensource.org/licenses/Apache-2.0
-## Credit
-undefined
-## Contact Info
-undefined
+  None
+  undefined
+  undefined
+  ## Credit
+  -
+  ## Contact Info
+  aaronpqking@gmail.com
+  

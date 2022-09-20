@@ -1,3 +1,4 @@
+
 // TODO: Include packages needed for this application
 const generateMarkdown = require("./generateMarkdown");
 const fs = require("fs");
@@ -51,7 +52,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "enter a title to continue";
+        return "enter a description to continue";
       }
     },
   },
@@ -63,7 +64,7 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "enter a title to continue";
+        return "enter a use to continue";
       }
     },
   },
@@ -76,31 +77,31 @@ const questions = [
       if (value) {
         return true;
       } else {
-        return "enter a title to continue";
+        return "enter a license to continue";
       }
     },
   },
   {
     type: "input",
     message: "Who contributed to the project?",
-    name: "Credits",
+    name: "credit",
     validate: (value) => {
       if (value) {
         return true;
       } else {
-        return "enter a title to continue";
+        return "enter credits to continue";
       }
     },
   },
   {
     type: "input",
     message: "contact info",
-    name: "Contact",
+    name: "contact",
     validate: (value) => {
       if (value) {
         return true;
       } else {
-        return "enter a title to continue";
+        return "enter contact info to continue";
       }
     },
   },
